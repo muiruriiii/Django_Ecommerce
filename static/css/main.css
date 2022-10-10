@@ -10,12 +10,7 @@ body{
 	font-size: 25px;
 	margin: 10px;
 }
-.btn-custom{
-	border-color: black;
-}
-.btn-custom:hover{
-	background-color: #b3b3ff;
-}
+
 
 h1,h2,h3,h4,h5,h6{
 	color:hsl(0, 0%, 30%);
