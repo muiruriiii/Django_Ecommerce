@@ -1,6 +1,21 @@
 body{
 	background-color: hsl(0, 0%, 98%);
 }
+.navbar-custom {
+    background-color: black;
+	height: 70px;
+}
+.navbar-text{
+	color: blue;
+	font-size: 25px;
+	margin: 10px;
+}
+.btn-custom{
+	border-color: black;
+}
+.btn-custom:hover{
+	background-color: #b3b3ff;
+}
 
 h1,h2,h3,h4,h5,h6{
 	color:hsl(0, 0%, 30%);
@@ -11,6 +26,7 @@ h1,h2,h3,h4,h5,h6{
 	background-color: #fff;
 	border-radius: 4px;
 	padding: 10px;
+
 }
 
 .thumbnail{
@@ -25,12 +41,12 @@ h1,h2,h3,h4,h5,h6{
 	border-radius: 0 0 4px 4px;
 }
 
-.bg-dark{
-	background-color: #4f868c!important;
-}
+/*.bg-dark{*/
+/*	background-color: #4f868c!important;*/
+/*}*/
 
 #cart-icon{
-	width:25px;
+	width:40px;
 	display: inline-block;
 	margin-left: 15px;
 }
@@ -39,7 +55,7 @@ h1,h2,h3,h4,h5,h6{
 	display: block;
 	text-align: center;
 	color:#fff;
-	background-color: red;
+	background-color: blue;
 	width: 20px;
 	height: 25px;
 	border-radius: 50%;
